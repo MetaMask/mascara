@@ -1,6 +1,8 @@
 # [DO NOT USE YET THIS IS A WIP]
 # MetaMascara
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MetaMask/mascara.svg)](https://greenkeeper.io/)
+
 MetaMascara(mascara) brings metamask when metamask is not installed.
 
 ## Disclaimer:
