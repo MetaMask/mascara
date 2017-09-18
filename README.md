@@ -40,3 +40,10 @@ const eth = new EthJs(ethereumProvider)
 
 // do stuff...
 ```
+
+## Developing:
+
+For development with metamask-extension/mascara to point the iframe at localhost just do:
+```
+const metamask = require('mascara')('http://localhost:9001') // or what ever port you use
+```
