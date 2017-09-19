@@ -18,7 +18,7 @@ key management for every dapp the user visits.
 to use as a CDN put this script tag in the `<head>` of your html file:
 
 ```html
-<script src="https://zero.metamask.io/metamascara.js"></script>
+<script src="https://zero.metamask.io/mascara.js"></script>
 ```
 
 or bring your own:
@@ -44,7 +44,7 @@ const eth = new EthJs(ethereumProvider)
 ## Developing:
 
 For development with metamask-extension/mascara to point the iframe at localhost just do:
-```
+```js
 const metamask = require('metamascara')
 const ethereumProvider = metamask.createDefaultProvider({
     host: 'http://localhost:9001'
