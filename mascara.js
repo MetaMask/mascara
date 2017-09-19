@@ -11,7 +11,7 @@ function createDefaultProvider ({host = 'https://zero.metamask.io'}) {
   //
 
   const provider = setupProvider({
-    mascaraUrl: mascaraOrigin + '/proxy/',
+    mascaraUrl: host + '/proxy/',
   })
   instrumentForUserInteractionTriggers(provider)
 
@@ -32,7 +32,7 @@ function createDefaultProvider ({host = 'https://zero.metamask.io'}) {
   function maybeTriggerPopup(){
     if (!shouldPop || window.web3) return
     shouldPop = false
-    window.open(mascaraOrigin, '', 'width=360 height=500')
+    window.open(host, '', 'width=360 height=500')
   }
 
   function instrumentForUserInteractionTriggers(provider){
