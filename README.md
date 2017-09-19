@@ -23,6 +23,8 @@ to use as a CDN put this script tag in the `<head>` of your html file:
 
 or bring your own:
 
+`npm i --save metamascara`
+
 ```js
 const metamask = require('metamascara')
 const EthJs = require('ethjs')
