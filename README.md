@@ -27,14 +27,11 @@ or bring your own:
 const metamask = require('metamascara')
 const EthJs = require('ethjs')
 
-let ethereumProvider
-if (window.web3) {
-  ethereumProvider = web3.currentProvider
-} else {
-  // use metamask's mascara as the fall back ethereum provider if the user
-  // doesn't bring their own
-  ethereumProvider = metamask.createDefaultProvider()
-}
+// mascara will use the environmental provider if the user brings one
+// in the form of metamask extension, mist or parity
+// other wise it will make one for you :}
+
+const ethereumProvider = metamask.createDefaultProvider()
 
 const eth = new EthJs(ethereumProvider)
 
