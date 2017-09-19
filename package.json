@@ -1,6 +1,6 @@
 {
   "name": "metamascara",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "mascara module for all the requires the handy dandy fall back when metamask Isn't installed",
   "main": "mascara.js",
   "directories": {
