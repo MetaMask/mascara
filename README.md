@@ -18,7 +18,7 @@ key management for every dapp the user visits.
 to use as a CDN put this script tag in the `<head>` of your html file:
 
 ```html
-<script src="https://zero.metamask.io/mascara.js"></script>
+<script src="https://zero.metamask.io/metamascara.js"></script>
 ```
 
 or bring your own:
