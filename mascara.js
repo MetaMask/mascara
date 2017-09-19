@@ -5,7 +5,8 @@ module.exports = {
   createDefaultProvider
 }
 
-function createDefaultProvider ({host = 'https://zero.metamask.io'}) {
+function createDefaultProvider (opts) {
+  const host = opts.host || 'https://zero.metamask.io'
   //
   // setup provider
   //
