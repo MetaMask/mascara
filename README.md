@@ -24,7 +24,7 @@ to use as a CDN put this script tag in the `<head>` of your html file:
 or bring your own:
 
 ```js
-const metamask = require('mascara')
+const metamask = require('metamascara')
 const EthJs = require('ethjs')
 
 let ethereumProvider
@@ -45,5 +45,8 @@ const eth = new EthJs(ethereumProvider)
 
 For development with metamask-extension/mascara to point the iframe at localhost just do:
 ```
-const metamask = require('mascara')('http://localhost:9001') // or what ever port you use
+const metamask = require('metamascara')
+const ethereumProvider = metamask.createDefaultProvider({
+    host: 'http://localhost:9001'
+  }) // or what ever port you use
 ```

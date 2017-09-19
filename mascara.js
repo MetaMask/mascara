@@ -5,7 +5,7 @@ module.exports = {
   createDefaultProvider
 }
 
-function createDefaultProvider (mascaraOrigin = 'https://zero.metamask.io') {
+function createDefaultProvider ({host = 'https://zero.metamask.io'}) {
   //
   // setup provider
   //
