@@ -23,7 +23,7 @@ function createDefaultProvider (opts = {}) {
   let shouldPop = false
   window.addEventListener('click', maybeTriggerPopup)
 
-  return setupDappAutoReload(provider, provider.publicConfigStore)
+  return !window.web3 ? setupDappAutoReload(provider, provider.publicConfigStore) : provider
 
 
   //
