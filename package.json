@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node example/server/"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,9 @@
     "pump": "^1.0.2"
   },
   "devDependencies": {
-    "ethjs-query": "^0.2.9"
+    "browserify": "^14.4.0",
+    "ethjs-query": "^0.2.9",
+    "express": "^4.15.4",
+    "watchify": "^3.9.0"
   }
 }
