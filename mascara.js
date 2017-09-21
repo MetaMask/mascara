@@ -30,10 +30,11 @@ function createDefaultProvider (opts = {}) {
   // util
   //
 
-  function maybeTriggerPopup(){
+  function maybeTriggerPopup(event){
     if (!shouldPop || window.web3) return
     shouldPop = false
     window.open(host, '', 'width=360 height=500')
+    setTimeout(1000)
   }
 
   function instrumentForUserInteractionTriggers(provider){
