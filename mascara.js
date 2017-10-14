@@ -6,7 +6,7 @@ module.exports = {
 }
 
 function createDefaultProvider (opts = {}) {
-  const host = opts.host || 'https://one.metamask.io'
+  const host = opts.host || 'https://zero.metamask.io'
   //
   // setup provider
   //
