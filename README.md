@@ -1,3 +1,8 @@
+[metamask-extension/mascara]: https://github.com/MetaMask/metamask-extension/tree/master/mascara
+[2163]: https://github.com/MetaMask/metamask-extension/issues/2163
+[Subresource Integrity]: https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
+
+
 # [DO NOT USE YET THIS IS A WIP]
 # MetaMascara
 
@@ -42,10 +47,17 @@ const eth = new EthJs(ethereumProvider)
 
 ## Developing:
 
-For development with metamask-extension/mascara to point the iframe at localhost just do:
+For development with [metamask-extension/mascara] to point the iframe at localhost just do:
+
 ```js
 const metamask = require('metamascara')
 const ethereumProvider = metamask.createDefaultProvider({
     host: 'http://localhost:9001'
   }) // or what ever port you use
 ```
+
+
+## todo's:
+
+- [ ] have an option to load metamask core off IPFS (relies on metamask issue [2163])
+- [ ] [Subresource Integrity]
