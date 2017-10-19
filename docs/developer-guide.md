@@ -1,4 +1,4 @@
-#Developers Guide
+# Developers Guide
 
 MeataMascara is a library that allows you to have a safety net if a user does not
 have a web3 enabled browser while also pulling out the provider and wrapping it in
