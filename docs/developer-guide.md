@@ -36,3 +36,6 @@ const eth = new EthJs(ethereumProvider)
 # The difference between mascara and the extension
 Mascara Is in alpha and some of it's behaviors are still undocumented.
 
+# Additional Security Concerns
+
+Always make sure to tell your users to bookmark your site, and to only access it via this bookmark, to reduce the probability of phishing.
