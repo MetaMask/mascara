@@ -2,6 +2,7 @@ const metamask = require('../mascara')
 const EthQuery = require('ethjs-query')
 window.addEventListener('load', loadProvider)
 window.addEventListener('message', console.warn)
+metamask.setupWidget({host: 'http://localhost:9001'})
 
 async function loadProvider() {
   const ethereumProvider = metamask.createDefaultProvider({host: 'http://localhost:9001'})
