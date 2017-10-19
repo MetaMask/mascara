@@ -1,8 +1,10 @@
 const setupProvider = require('./lib/setup-provider.js')
 const setupDappAutoReload = require('./lib/auto-reload.js')
+const setupWidget = require('./lib/setup-widget.js')
 
 module.exports = {
-  createDefaultProvider
+  createDefaultProvider,
+  setupWidget,
 }
 
 function createDefaultProvider (opts = {}) {
@@ -48,3 +50,7 @@ function createDefaultProvider (opts = {}) {
   }
 
 }
+
+// function setupWidget (opts = {}) {
+
+// }
