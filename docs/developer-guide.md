@@ -32,6 +32,13 @@ const eth = new EthJs(ethereumProvider)
 // do stuff...
 ```
 
+## The Provider API
+
+.. describe the provider, what it is, how to use it.
+
+`provider.sendAsync(options, callback)`
+
+Easiest used with an abstraction library like EthJS or Web3.js.
 
 # The difference between mascara and the extension
 Mascara Is in alpha and some of it's behaviors are still undocumented.
