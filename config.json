@@ -1,0 +1,7 @@
+{
+  "ethereum": {
+    "deprecated-methods": {
+      "eth_sign": "eth_sign has been deprecated in metamascara due to security concerns please use eth_signTypedData"
+    }
+  }
+}
