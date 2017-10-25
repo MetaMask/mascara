@@ -4,11 +4,12 @@ const setupWidget = require('./lib/setup-widget.js')
 
 module.exports = {
   createDefaultProvider,
-  setupWidget,
+  // disabled for now
+  // setupWidget,
 }
 
 function createDefaultProvider (opts = {}) {
-  const host = opts.host || 'https://zero.metamask.io'
+  const host = opts.host || 'https://wallet.metamask.io'
   //
   // setup provider
   //
