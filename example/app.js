@@ -6,7 +6,7 @@ metamask.setupWidget({host: 'http://localhost:9001'})
 
 async function loadProvider() {
   const ethereumProvider = metamask.createDefaultProvider({host: 'http://localhost:9001'})
-  const ethQuery = new EthQuery(ethereumProvider)
+  global.ethQuery = new EthQuery(ethereumProvider)
   const accounts = await ethQuery.accounts()
    window.METAMASK_ACCOUNT = accounts[0] || 'locked'
   logToDom(accounts.length ? accounts[0] : 'LOCKED or undefined', 'account')
