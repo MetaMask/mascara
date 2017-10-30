@@ -12,14 +12,6 @@ MetaMascara(mascara) brings metamask when metamask is not installed.
 
 MetaMascar is in alpha expect breaking changes
 
-## How does it work and how to use it:
-
-Mascara is an iframe that acts as a proxy between your dapp and metamask core.
-The metamask core is the global context housed in a service worker, it does the
-key management for every dapp the user visits.
-
-![nomnom](./images/nomnoml.png)
-
 to use as a CDN put this script tag in the `<head>` of your html file:
 
 ```html
@@ -55,6 +47,14 @@ const ethereumProvider = metamask.createDefaultProvider({
     host: 'http://localhost:9001'
   }) // or what ever port you use
 ```
+
+## How does it work and how to use it:
+
+Mascara is an iframe that acts as a proxy between your dapp and metamask core.
+The metamask core is the global context housed in a service worker, it does the
+key management for every dapp the user visits.
+
+![nomnom](./images/nomnoml.png)
 
 
 ## todo's:
