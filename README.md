@@ -15,7 +15,7 @@ MetaMascar is in alpha expect breaking changes
 to use as a CDN put this script tag in the `<head>` of your html file:
 
 ```html
-<script src="https://zero.metamask.io/metamascara.js"></script>
+<script src="https://wallet.metamask.io/metamascara.js"></script>
 ```
 
 or bring your own:
