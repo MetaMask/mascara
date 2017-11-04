@@ -3,7 +3,6 @@
 [Subresource Integrity]: https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
 
 
-# [DO NOT USE YET THIS IS A WIP]
 # MetaMascara
 
 MetaMascara(mascara) brings metamask when metamask is not installed.
