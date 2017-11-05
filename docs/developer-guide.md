@@ -10,7 +10,7 @@ the mascara api if they do.
 To use as a CDN put this script tag in the `<head>` of your html file:
 
 ```html
-<script src="https://zero.metamask.io/metamascara.js"></script>
+<script src="https://wallet.metamask.io/metamascara.js"></script>
 ```
 
 Or bring your own:
