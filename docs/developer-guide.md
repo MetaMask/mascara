@@ -4,6 +4,10 @@ MeataMascara is a library that allows you to have a safety net if a user does no
 have a web3 enabled browser while also pulling out the provider and wrapping it in
 the mascara api if they do.
 
+## Caveats of the browser:
+
+The MetaMask pop-up can only open on a user action (click). So in order to get the user to approve
+a transaction you will need to have the user click a html element to get the pop up.
 
 ## How to use:
 
