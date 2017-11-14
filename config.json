@@ -4,6 +4,7 @@
       "eth_sign": "eth_sign has been deprecated in metamascara due to security concerns please use eth_signTypedData"
     },
     "should-show-ui": [
+      "eth_personalSign",
       "eth_signTypedData",
       "eth_sendTransaction"
     ]
