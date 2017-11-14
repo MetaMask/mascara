@@ -44,7 +44,6 @@ function createDefaultProvider (opts = {}) {
     if (window.web3) return provider
     const _super = provider.sendAsync.bind(provider)
     provider.sendAsync = function (payload, cb) {
-      console.log(payload)
       if (config.ethereum['should-show-ui'].includes(payload.method)) {
         shouldPop = true
       }
