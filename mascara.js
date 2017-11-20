@@ -6,7 +6,7 @@ const config = require('./config.json')
 module.exports = {
   createDefaultProvider,
   // disabled for now
-  // setupWidget,
+  setupWidget,
 }
 
 function createDefaultProvider (opts = {}) {
