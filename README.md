@@ -9,7 +9,7 @@ MetaMascara(mascara) brings metamask when metamask is not installed.
 
 ## Disclaimer:
 
-MetaMascar is in alpha expect breaking changes
+MetaMascara is in alpha expect breaking changes
 
 to use as a CDN put this script tag in the `<head>` of your html file:
 
